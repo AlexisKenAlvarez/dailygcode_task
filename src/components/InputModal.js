@@ -20,7 +20,7 @@ export const InputModal = ({label, className, id, mLeft}) => {
     
 
     return (
-        <div className={`input-container mx-auto mt-16 max-w-[800px] border-0 border-black ${className}`}>
+        <div className={`input-container mx-auto max-w-[800px] border-0 border-black ${className}`}>
             <div className='flex w-full h-auto items-center'>
                 <p className="text-md font-sans w-[25rem]">{label}</p>
                 <div className={`relative flex items-center w-[20px] h-4 ml-auto mr-2 sm:mr-auto ${mLeft}`}>
