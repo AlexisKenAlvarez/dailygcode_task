@@ -29,9 +29,9 @@ const App = () => {
         <Things />
         <ButtonSection />
 
-        <InputModal id="wins" label="Did you have any wins today?" className="mt-8" mLeft="sm:ml-[-11rem]"/>
-        <InputModal id="focus" label="Who did you focus your time on today?" className="mt-5" mLeft="sm:ml-[-6.8rem]"/>
-        <InputModal id="lesson" label="What is the lesson you learned today?" className="mt-5"/>
+        <InputModal id="wins" label="Did you have any wins today?" className="mt-7" mLeft="sm:ml-[-11rem]"/>
+        <InputModal id="focus" label="Who did you focus your time on today?" className="mt-6" mLeft="sm:ml-[-6.8rem]"/>
+        <InputModal id="lesson" label="What is the lesson you learned today?" className="mt-6"/>
 
         <Submit/>
 
